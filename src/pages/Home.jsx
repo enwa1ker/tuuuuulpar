@@ -16,8 +16,8 @@ import BlogList from "../components/UI/BlogList";
 
 const Home = () => {
   return (
-    <Helmet title="Home">
-      {/* ============= hero section =========== */}
+    <Helmet title="Главная">
+      {/* ============= Геро-секция =========== */}
       <section className="p-0 hero__slider-section">
         <HeroSlider />
 
@@ -26,7 +26,7 @@ const Home = () => {
             <Row className="form__row">
               <Col lg="4" md="4">
                 <div className="find__cars-left">
-                  <h2>Find your best car here</h2>
+                  <h2>Найдите лучший автомобиль для себя</h2>
                 </div>
               </Col>
 
@@ -37,28 +37,28 @@ const Home = () => {
           </Container>
         </div>
       </section>
-      {/* =========== about section ================ */}
+      {/* =========== Секция "О нас" ================ */}
       <AboutSection />
-      {/* ========== services section ============ */}
+      {/* ========== Секция услуг ============ */}
       <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">See our</h6>
-              <h2 className="section__title">Popular Services</h2>
+              <h6 className="section__subtitle">Посмотрите наши</h6>
+              <h2 className="section__title">Популярные услуги</h2>
             </Col>
 
             <ServicesList />
           </Row>
         </Container>
       </section>
-      {/* =========== car offer section ============= */}
+      {/* =========== Секция предложений по автомобилям ============= */}
       <section>
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h6 className="section__subtitle">Come with</h6>
-              <h2 className="section__title">Hot Offers</h2>
+              <h6 className="section__subtitle">Приходите с</h6>
+              <h2 className="section__title">Горячими предложениями</h2>
             </Col>
 
             {carData.slice(0, 6).map((item) => (
@@ -67,16 +67,16 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      {/* =========== become a driver section ============ */}
+      {/* =========== Секция "Стань водителем" ============ */}
       <BecomeDriverSection />
 
-      {/* =========== testimonial section =========== */}
+      {/* =========== Секция отзывов =========== */}
       <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-4 text-center">
-              <h6 className="section__subtitle">Our clients says</h6>
-              <h2 className="section__title">Testimonials</h2>
+              <h6 className="section__subtitle">Что говорят наши клиенты</h6>
+              <h2 className="section__title">Отзывы</h2>
             </Col>
 
             <Testimonial />
@@ -84,13 +84,13 @@ const Home = () => {
         </Container>
       </section>
 
-      {/* =============== blog section =========== */}
+      {/* =============== Блог секция =========== */}
       <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Explore our blogs</h6>
-              <h2 className="section__title">Latest Blogs</h2>
+              <h6 className="section__subtitle">Исследуйте наши блоги</h6>
+              <h2 className="section__title">Последние статьи</h2>
             </Col>
 
             <BlogList />

@@ -7,22 +7,22 @@ import carData from "../assets/data/carData";
 
 const CarListing = () => {
   return (
-    <Helmet title="Cars">
-      <CommonSection title="Car Listing" />
+    <Helmet title="Автомобили">
+      <CommonSection title="Каталог автомобилей" />
 
       <section>
         <Container>
           <Row>
             <Col lg="12">
-              <div className=" d-flex align-items-center gap-3 mb-5">
-                <span className=" d-flex align-items-center gap-2">
-                  <i class="ri-sort-asc"></i> Sort By
+              <div className="d-flex align-items-center gap-3 mb-5">
+                <span className="d-flex align-items-center gap-2">
+                  <i className="ri-sort-asc"></i> Сортировать по
                 </span>
 
                 <select>
-                  <option>Select</option>
-                  <option value="low">Low to High</option>
-                  <option value="high">High to Low</option>
+                  <option>Выбрать</option>
+                  <option value="low">От дешевых к дорогим</option>
+                  <option value="high">От дорогих к дешевым</option>
                 </select>
               </div>
             </Col>

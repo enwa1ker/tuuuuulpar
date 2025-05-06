@@ -1,4 +1,4 @@
-// import all images from assets/images directory
+// Импорт изображений из директории assets/images
 import img01 from "../all-images/cars-img/nissan-offer.png";
 import img02 from "../all-images/cars-img/offer-toyota.png";
 import img03 from "../all-images/cars-img/bmw-offer.png";
@@ -17,12 +17,12 @@ const carData = [
     imgUrl: img01,
     model: "Model 3",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    speed: "20км/ч",
+    gps: "GPS навигация",
+    seatType: "Подогрев сидений",
+    automatic: "Автомат",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Электромобиль Tesla Model 3 сочетает в себе инновационные технологии и стильный дизайн. Идеальный выбор для комфортных поездок по городу и за его пределами.",
   },
 
   {
@@ -31,14 +31,14 @@ const carData = [
     rating: 102,
     carName: "Toyota Aventador",
     imgUrl: img02,
-    model: "Model-2022",
+    model: "Модель-2022",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    speed: "20км/ч",
+    gps: "GPS навигация",
+    seatType: "Подогрев сидений",
+    automatic: "Автомат",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Надежный и практичный Toyota Aventador с современным оснащением и экономичным двигателем.",
   },
 
   {
@@ -47,14 +47,14 @@ const carData = [
     rating: 132,
     carName: "BMW X3",
     imgUrl: img03,
-    model: "Model-2022",
+    model: "Модель-2022",
     price: 65,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    speed: "20км/ч",
+    gps: "GPS навигация",
+    seatType: "Подогрев сидений",
+    automatic: "Автомат",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Премиальный кроссовер BMW X3 с динамичным характером и роскошным интерьером.",
   },
 
   {
@@ -63,14 +63,14 @@ const carData = [
     rating: 102,
     carName: "Nissan Mercielago",
     imgUrl: img04,
-    model: "Model-2022",
+    model: "Модель-2022",
     price: 70,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    speed: "20км/ч",
+    gps: "GPS навигация",
+    seatType: "Подогрев сидений",
+    automatic: "Автомат",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Стильный и вместительный Nissan Mercielago с передовыми системами безопасности.",
   },
 
   {
@@ -79,14 +79,14 @@ const carData = [
     rating: 94,
     carName: "Ferrari Camry",
     imgUrl: img05,
-    model: "Model-2022",
+    model: "Модель-2022",
     price: 45,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    speed: "20км/ч",
+    gps: "GPS навигация",
+    seatType: "Подогрев сидений",
+    automatic: "Автомат",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Элегантный Ferrari Camry с спортивным характером и узнаваемым дизайном.",
   },
 
   {
@@ -95,14 +95,14 @@ const carData = [
     rating: 119,
     carName: "Mercedes Benz XC90",
     imgUrl: img06,
-    model: "Model-2022",
+    model: "Модель-2022",
     price: 85,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    speed: "20км/ч",
+    gps: "GPS навигация",
+    seatType: "Подогрев сидений",
+    automatic: "Автомат",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Роскошный Mercedes Benz XC90 с просторным салоном и передовыми технологиями.",
   },
 
   {
@@ -113,12 +113,12 @@ const carData = [
     imgUrl: img07,
     model: "Model 3",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    speed: "20км/ч",
+    gps: "GPS навигация",
+    seatType: "Подогрев сидений",
+    automatic: "Автомат",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Компактный и маневренный Audi Fiesta - отличный выбор для городских условий.",
   },
 
   {
@@ -129,12 +129,12 @@ const carData = [
     imgUrl: img08,
     model: "Model 3",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    speed: "20км/ч",
+    gps: "GPS навигация",
+    seatType: "Подогрев сидений",
+    automatic: "Автомат",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Эксклюзивный Rolls Royce Colorado - воплощение роскоши и престижа.",
   },
 ];
 

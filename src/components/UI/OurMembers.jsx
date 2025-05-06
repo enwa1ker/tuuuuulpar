@@ -8,38 +8,39 @@ import ava03 from "../../assets/all-images/ava-3.jpg";
 
 const OUR__MEMBERS = [
   {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
+    name: "Айбек Сагынбаев",
+    position: "Автопарк менеджери",
+    experience: "5 жылдык тажрыйба",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
     imgUrl: ava01,
   },
-
   {
-    name: "David Lisa",
-    experience: "5 years of experience",
+    name: "Айгул Токтогулова",
+    position: "Кардарлар менеджери",
+    experience: "4 жылдык тажрыйба",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
     imgUrl: ava02,
   },
-
   {
-    name: "Hilton King",
-    experience: "5 years of experience",
+    name: "Нурлан Жумабаев",
+    position: "Техникалык кызматкер",
+    experience: "6 жылдык тажрыйба",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
     imgUrl: ava03,
   },
-
   {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
+    name: "Гүлзада Асанова",
+    position: "Финанс менеджери",
+    experience: "5 жылдык тажрыйба",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -55,30 +56,35 @@ const OurMembers = () => {
         <Col lg="3" md="3" sm="4" xs="6" key={index} className="mb-4">
           <div className="single__member">
             <div className="single__member-img">
-              <img src={item.imgUrl} alt="" className="w-100" />
+              <img 
+                src={item.imgUrl} 
+                alt={`${item.name} - ${item.position}`} 
+                className="w-100" 
+              />
 
               <div className="single__member-social">
-                <Link to={item.fbUrl}>
-                  <i class="ri-facebook-line"></i>
+                <Link to={item.fbUrl} aria-label="Facebook">
+                  <i className="ri-facebook-line"></i>
                 </Link>
-                <Link to={item.twitUrl}>
-                  <i class="ri-twitter-line"></i>
+                <Link to={item.twitUrl} aria-label="Twitter">
+                  <i className="ri-twitter-line"></i>
                 </Link>
-
-                <Link to={item.linkedinUrl}>
-                  <i class="ri-linkedin-line"></i>
+                <Link to={item.linkedinUrl} aria-label="LinkedIn">
+                  <i className="ri-linkedin-line"></i>
                 </Link>
-
-                <Link to={item.instUrl}>
-                  <i class="ri-instagram-line"></i>
+                <Link to={item.instUrl} aria-label="Instagram">
+                  <i className="ri-instagram-line"></i>
                 </Link>
               </div>
             </div>
 
-            <h6 className="text-center mb-0 mt-3">{item.name}</h6>
-            <p className="section__description text-center">
-              {item.experience}
-            </p>
+            <div className="member-info text-center">
+              <h6 className="mb-0 mt-3 member-name">{item.name}</h6>
+              <p className="member-position">{item.position}</p>
+              <p className="section__description member-experience">
+                {item.experience}
+              </p>
+            </div>
           </div>
         </Col>
       ))}

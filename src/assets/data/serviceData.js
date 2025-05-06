@@ -1,44 +1,44 @@
 const serviceData = [
   {
     id: 1,
-    title: "City Transfer",
+    title: "Трансфер по городу",
     icon: "ri-map-pin-2-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Комфортный и безопасный трансфер в любую точку города на современных автомобилях с профессиональными водителями.",
   },
 
   {
     id: 2,
-    title: "Whole  City Tour",
+    title: "Обзорный тур по городу",
     icon: "ri-community-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Полноценная экскурсия по всем достопримечательностям города с возможностью делать остановки для фото.",
   },
 
   {
     id: 3,
-    title: "Unlimited Miles Car Rental",
+    title: "Аренда без ограничения пробега",
     icon: "ri-roadster-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Возможность арендовать автомобиль без лимита километража - платите только за время аренды.",
   },
 
   {
     id: 4,
-    title: "Fast & Easy Booking",
+    title: "Быстрое бронирование",
     icon: "ri-timer-flash-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Простая и удобная система онлайн-бронирования всего за 2 минуты без лишних документов.",
   },
 
   {
     id: 5,
-    title: "Many Pickup Locations",
+    title: "Множество пунктов выдачи",
     icon: "ri-map-pin-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Вы можете получить и вернуть автомобиль в любом из наших многочисленных офисов по всему городу.",
   },
 
   {
     id: 6,
-    title: "Airport Transfer",
+    title: "Аэропорт трансфер",
     icon: "ri-flight-takeoff-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Встреча в аэропорту с табличкой и трансфер до вашего отеля или любого другого адреса.",
   },
 ];
 
